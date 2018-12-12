@@ -1,0 +1,29 @@
+{
+  "name": "google-baidu-translate-api",
+  "version": "1.0.3",
+  "description": "A free and unlimited API for Google & Baidu Translate",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyasliu/google-baidu-translate-api.git"
+  },
+  "author": "Eyas Liu",
+  "bugs": {
+    "url": "https://github.com/eyasliu/google-baidu-translate-api/issues"
+  },
+  "homepage": "https://github.com/eyasliu/google-baidu-translate-api",
+  "dependencies": {
+    "configstore": "^4.0.0",
+    "got": "^9.4.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "safe-eval": "^0.4.1"
+  }
+}
